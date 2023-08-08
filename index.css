@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 13px;
+  border-radius: 5px;
+  background-color: #5ed3eb;
+  display: inline-block;
+  width: 110px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+nav a:first-child {
+  background-color: #ff764e;
+  padding: 6px 13px;
+}
+
+nav a:last-child {
+  background-color: #ffcd69;
+}
+
+main img {
+  display: inline-block;
+  width: 187px;
+  height: 187px;
+  border-radius: 50%;
+  vertical-align: top;
+}
+
+main {
+  padding-top: 50px;
+}
+
+main div {
+  display: inline-block;
+  width: 73%;
+  text-align: center;
+  vertical-align: top;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: "Chelsea Market", cursive;
+}
+
+.top-content {
+  background-color: #ddb9a3;
+  margin-top: 15px;
+}
+
+.top-content p {
+  text-align: center;
+  color: white;
+}
+
+.bottom-content img {
+  width: 75px;
+  display: inline-block;
+  margin: 0 587px;
+  margin-top: 50px;
+}
+
+.bottom-content p {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.upper-footer {
+  margin-top: 100px;
+  background: url("assets/footer_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+footer {
+  background-color: #f9e7dc;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
